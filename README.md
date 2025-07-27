@@ -26,9 +26,9 @@ API: Windows API (WinAPI) - Used for console graphics, keyboard input, and sound
 
 Parallelism:
 
-<thread>: Separate threads are created for the movement logic of Pacman and each ghost.
+Separate threads are created for the movement logic of Pacman and each ghost.
 
-<mutex>: Mutexes are used to ensure data consistency and prevent race conditions when accessing shared resources like the game map and score.
+Mutexes are used to ensure data consistency and prevent race conditions when accessing shared resources like the game map and score.
 
 📸 Screenshots
 
